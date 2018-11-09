@@ -54,13 +54,14 @@ section{
   margin: 5px 0
 }
 .btn-lvly {
-  min-width: 12px;
+  min-width: 120px;
   border-radius: 30px;
   border-color: transparent;
-  padding: 0px 30px;
+  padding: 0px 15px;
   background-color: rgb(34, 34, 34);
-  font-size: 14px;
-  line-height: 36px;
+  color: #fff;
+  font-size: 12px;
+  height: 38px;
 }
 
 .testimonial{
@@ -82,4 +83,40 @@ section{
 
 .view-all{
   margin-top: 36px
+}
+
+.social .fa{
+  text-align: center;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+}
+.social{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+}
+
+.contact-us{
+  background: url(../img/roses-3638620_1920.jpg) no-repeat;
+  background-size: cover;
+}
+.contact-us .overlay{
+  padding: 80px 0;
+}
+
+.btn-subscribe{
+  height: 42px;
+  font-size: 14px;
+}
+.contact-header {
+  margin: 0px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 4px;
+  padding: 20px 30px 10px;
+  color: #fff
 }
